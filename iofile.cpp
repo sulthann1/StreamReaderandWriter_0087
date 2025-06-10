@@ -52,5 +52,6 @@ int main()
         infile.close();
     }
     //jika tidak ditemukan file maka akan menampilkan ini
-    else cout 
+    else cout << "unable to open file";
+    return 0; 
 };
