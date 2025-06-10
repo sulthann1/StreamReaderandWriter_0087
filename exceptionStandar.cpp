@@ -17,6 +17,12 @@ int main()
     }
 
     catch (exception& e ) {
-        //p
+        //penangkap menggunakan obyek exception
+        cout << e.what() <<endl;
+        /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
     }
+
+    cout << "Baris program yang terakhir" <<endl;
+    /*penanda 2 : bahwa pemrograman berjalan tanpa berhenti meskipun terjadi keslahan*/
+    return 0;
 }
