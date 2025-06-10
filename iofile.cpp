@@ -26,8 +26,16 @@ int main()
         if (baris =="q") break;
 
         //menulis dan memasukan nilai dari 'baris' kedalam file
-        outfile << baris <<endl;
-
-       
+        outfile << baris <<endl;       
     }
+
+     //selesai dalam menulis sekarang tutup file nya
+        outfile.close();
+        //membuka file dalam momde membaca
+
+    ifstream infile;
+    
+    //menunjuk ke sebuah file
+    infile.open("contohfile.txt");
+    cout
 };
