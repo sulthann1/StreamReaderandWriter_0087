@@ -27,6 +27,7 @@ int main()
             break;
         // menulis dan memasukan nilai dari 'baris' kedlam file
         outfile << baris << endl;
+    }
 
         // selesai dalam menulis sekarang tutup file nya
         outfile.close();
@@ -44,11 +45,19 @@ int main()
                 // dan tampilkan disini
                 cout << baris << endl;
             }
+
+             // tutup file tersebut  setelah selesai
+            infile.close();
         }
+        
 
-        // tutup file tersebut  setelah selesai
-        infile.close();
-    }
-
-
+        //jika tidak ditemukan maka akan menampilkan 
+        else cout << "Unable to open file";
+        return 0;
 }
+       
+    
+
+
+
+
