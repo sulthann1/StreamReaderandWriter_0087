@@ -4,5 +4,12 @@
 using namespace std;
 
 int main(){
-    string baris
+    string baris;
+
+    //menambahkan file ke dalam mode menulis
+    ofstream outfile;
+
+   
+
+    cout <<""
 }
